@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0px;
+    text-rendering: optimizeLegibility;
+    background-color: #6398c7;
+}
+
+textarea {
+    width: 90%;
+    height: 10vh;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    border: 3px solid black;
+    background-color: #6398c7;
+    display: flex;
+    justify-content: center;
+}
+
+:root{
+    --primary-color: #fbff00;
+    --secondary-color: #365895;
+
+}
+
+#btn-translate{
+    margin: 1rem;
+    display: block;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: 0.75rem;
+}
+
+.container{
+    margin: 2rem;
+    text-align: center;
+}
+
+.centre-btn{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nav-span {
+    font-size: 2.5rem;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    color: var(--secondary-color);
+}
+
+.gif{
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+img{
+    width: 50%;
+}
+
+
+
+/* footers */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    margin-top: 3rem;
+    text-align: center;
+    color: var(--secondary-color);
+    /* border-top-right-radius: 1rem; */
+
+}
+
+.footer-header {
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer .link {
+    color: black;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.fa-github:link,
+.fa-github:hover {
+    color: #c0bcbc;
+}
+
+.fa-twitter:link,
+.fa-twitter:hover {
+    color: #1da1f2
+}
+
+.fa-linkedin-in:link,
+.fa-linkedin-in:hover {
+    color: #0a66c2;
+}
+
+.fa-instagram:link,
+.fa-instagram:hover {
+    color: #c32aa3;
+}
+
+.fa-snapchat-ghost:link,
+.fa-snapchat-ghost:hover {
+    color: #ffffff;
+}
+
+.footer-icons{
+    transition:color 0.2s;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    margin-block-end: none;
+
+}
+
+.foot-li {
+    padding: 0 2px;
+    text-align: center;
+    display: inline-flex;
+
+}
+
+.snap-code {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    padding: 3rem;
+}
+
+#output{
+    border: 3px solid black;
+    width: 95%;
+    height: 15vh;
+    margin-top: 1rem;
+    text-align: left;
+    padding-left: 1rem ;
+}
